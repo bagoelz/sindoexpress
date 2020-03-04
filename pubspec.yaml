@@ -29,11 +29,11 @@ dependencies:
   flutter_open_whatsapp: ^0.1.2
   material_design_icons_flutter: 3.2.4495
   flutter_qr_scanner: ^0.1.5
-#  # intl: ^0.15.8
+# #  # intl: ^0.15.8
   video_player: ^0.10.8+1
   url_launcher: ^5.4.1
   flutter_svg: ^0.15.0
- # cupertino_icons: ^0.1.2
+#  # cupertino_icons: ^0.1.2
   flutter_youtube: ^2.0.0
 
 dev_dependencies:
@@ -69,7 +69,6 @@ flutter:
     - assets/callcenter.png
     - assets/intro.mp4
     - assets/home.png
-    # - assets/home-1.png
     - assets/message.png
     - assets/message-1.png
     - assets/profile-1.png
@@ -103,6 +102,21 @@ flutter:
     - assets/iconpassword.png
     - assets/loginbtn.png
     - assets/csicon.png
+    - assets/Astra.png
+    - assets/CLub.png
+    - assets/Daihatsu.png
+    - assets/Hino.png
+    - assets/Hock.png
+    - assets/Honda.png
+    - assets/LG.png
+    - assets/Mitsubishi.png
+    - assets/Nissan.png
+    - assets/Polytron.png
+    - assets/Suzuki.png
+    - assets/Toyota.png
+    - assets/Unicharm.png
+    - assets/Wuling.png
+    - assets/Yamaha.png
   fonts:
     - family : Montserrat
       fonts:

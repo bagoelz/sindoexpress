@@ -5,6 +5,7 @@ import 'package:sindoexpress/screen/about_us.dart';
 import 'package:sindoexpress/screen/news.dart';
 import 'package:video_player/video_player.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
+
 class SplashScreenPage extends StatefulWidget {
   @override
   _SplashScreenPageState createState() => _SplashScreenPageState();
@@ -53,13 +54,12 @@ startSplashScreen() async{
           Navigator.of(context).pushReplacement(
               MaterialPageRoute(builder: (_){
                 return home();
+                //return OurclientPage();
               })
           );
       });
   }
-  
-  
-  
+
  
   Widget build(BuildContext context) {
     return ModalProgressHUD(child:SafeArea(

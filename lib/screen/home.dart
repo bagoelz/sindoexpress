@@ -32,7 +32,7 @@ int selectedIndex = 0;
      if(index == 2){
       Navigator.of(context).push(
             MaterialPageRoute(builder: (_){
-              // return loginScreen();
+          //     return loginScreen();
             return  LoginPage();
       }));
      }
@@ -442,9 +442,6 @@ class _bodyState extends State<body> {
             )
           ),
       ],),
-
-
-   
 
       ],
     );

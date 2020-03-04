@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'screen/ourclient.dart';
 import 'screen/splashscrren_view.dart';
 
 void main(){
@@ -26,6 +27,8 @@ class myApp extends StatelessWidget {
       //     ),
       debugShowCheckedModeBanner: false,
       home: SplashScreenPage(),
+
+      // home: OurclientPage()
       /// Move splash screen to ChoseLogin Layout
       /// Routes
     );

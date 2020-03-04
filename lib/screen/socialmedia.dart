@@ -28,7 +28,7 @@ class _SocialmediaPageState extends State<SocialmediaPage> {
                elevation: 0.0,
         backgroundColor: Colors.transparent,     
         iconTheme: IconThemeData(color: Colors.white),
-        title: Text("COMPANY PROFILE",
+        title: Text("OUR SOCIAL MEDIA",
                     style: TextStyle(
                       fontSize: 18, 
                       color: Colors.white,

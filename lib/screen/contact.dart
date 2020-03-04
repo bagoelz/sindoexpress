@@ -14,7 +14,7 @@ class _ContactPageState extends State<ContactPage> {
 
     return Stack(
             children: <Widget>[
-        Container(
+              Container(
                 width: width,
                 decoration: BoxDecoration(
                   image:DecorationImage(image: AssetImage("assets/background01.jpg"), fit: BoxFit.cover,

@@ -6,7 +6,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:sindoexpress/library/input.dart';
 import 'package:sindoexpress/library/model.dart';
 import 'package:sindoexpress/screen/detailSchedule.dart';
-// import 'package:flutter_svg/flutter_svg.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 class schedule extends StatefulWidget {
   @override
   _scheduleState createState() => _scheduleState();
@@ -137,9 +137,9 @@ getSearching(){
                       width: MediaQuery.of(context).size.width,
                       height: MediaQuery.of(context).size.height,
                       decoration: BoxDecoration(
-                        color: Colors.grey,
+                        color: Colors.transparent,
                         image: DecorationImage(
-                          image:AssetImage("assets/header.png"),
+                          image:AssetImage("assets/background01.jpg"),
                           fit: BoxFit.cover
                         )
                       ),
@@ -205,10 +205,10 @@ getSearching(){
                                                       borderRadius: BorderRadius.all(Radius.circular(15)),
                                                       color: Colors.white
                                                     ),
-                                                      // child: SvgPicture.asset(
-                                                      //   'assets/cruise.svg',
-                                                      //   color: Colors.red[700],
-                                                      // ),
+                                                      child: SvgPicture.asset(
+                                                        'assets/cruise.svg',
+                                                        color: Colors.red[700],
+                                                      ),
                                                     )
                                                   ),
                                                    Container(
@@ -230,9 +230,9 @@ getSearching(){
                                                       borderRadius: BorderRadius.all(Radius.circular(15)),
                                                       color: Colors.white
                                                     ),
-                                                      // child: SvgPicture.asset(
-                                                      //   'assets/cruise-1.svg',
-                                                      // ),
+                                                      child: SvgPicture.asset(
+                                                        'assets/cruise-1.svg',
+                                                      ),
                                                     )
                                                   ),
                                                 ],

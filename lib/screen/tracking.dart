@@ -190,35 +190,35 @@ class _bodyTrackingState extends State<bodyTracking> {
                        ),
               Container(
                 width: MediaQuery.of(context).size.width - 20,
-                //height: widget.rotate ? MediaQuery.of(context).size.height - 70 : MediaQuery.of(context).size.height,
-                // decoration: BoxDecoration(
-                //   color: Colors.white,
-                //   borderRadius: BorderRadius.all( Radius.circular(15.0),
-                //   ),
-                //   boxShadow: [
-                //     BoxShadow(
-                //       color: Colors.grey[300],
-                //       offset: Offset(1.0, 1.0)
-                //     )
-                //   ]
-                // ),
+                height: widget.rotate ? MediaQuery.of(context).size.height - 70 : MediaQuery.of(context).size.height,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.all( Radius.circular(15.0),
+                  ),
+                  boxShadow: [
+                    BoxShadow(
+                      color: Colors.grey[300],
+                      offset: Offset(1.0, 1.0)
+                    )
+                  ]
+                ),
                 child: Column(
                   children: <Widget>[
-                    // Container(
-                    //   padding: EdgeInsets.only(top:10, bottom: 10),
-                    //   height: 50,
-                    //   width: MediaQuery.of(context).size.width,
-                    //   child: Row(
-                    //     mainAxisAlignment: MainAxisAlignment.center,
-                    //     children: <Widget>[
-                    //       Text('Quick Tracking', style: TextStyle(fontFamily: 'Gotik', color: Colors.white),),
-                    //     ],
-                    //   ),
-                    //   decoration: BoxDecoration(
-                    //     borderRadius: BorderRadius.only(topLeft: Radius.circular(15),topRight: Radius.circular(15)),
-                    //     color: Colors.indigo,
-                    //   ),
-                    // ),
+                    Container(
+                      padding: EdgeInsets.only(top:10, bottom: 10),
+                      height: 50,
+                      width: MediaQuery.of(context).size.width,
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: <Widget>[
+                          Text('Quick Tracking', style: TextStyle(fontFamily: 'Gotik', color: Colors.white),),
+                        ],
+                      ),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.only(topLeft: Radius.circular(15),topRight: Radius.circular(15)),
+                        color: Colors.indigo,
+                      ),
+                    ),
                     Row(
                   children: <Widget>[
                          Container(
