@@ -59,7 +59,7 @@ class _about_usState extends State<about_us> {
 
                     InkWell(
                      onTap: (){
-                       Navigator.of(context).push(
+                       Navigator.of(context).pushReplacement(
                         MaterialPageRoute(builder: (_){
                           return ComproPage();
                         }));

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter_youtube/flutter_youtube.dart';
 
 class ComproPage extends StatefulWidget {
   @override
@@ -7,7 +7,14 @@ class ComproPage extends StatefulWidget {
 }
 
 class _ComproPageState extends State<ComproPage> {
-  
+   String link='https://www.youtube.com/watch?v=eqJDA5YJMm4';
+  // void playVideo() {
+  //   FlutterYoutube.playYoutubeVideoByUrl(
+  //     apiKey: "AIzaSyAUjMGjTQeid3YWGh7xTIyGrfTlOjV94MI",
+  //     autoPlay: true,
+  //     videoUrl: "https://www.youtube.com/watch?v=eqJDA5YJMm4",
+  //   );
+  // }
   @override
   Widget build(BuildContext context) {
 
@@ -41,7 +48,19 @@ class _ComproPageState extends State<ComproPage> {
           
           body:Column(
                   children:<Widget>[
-              
+                    Row(children: <Widget>[
+                        Container(
+                            height: MediaQuery.of(context).size.height/2,
+                            width: MediaQuery.of(context).size.width-20,
+                          child: FlutterYoutube.playYoutubeVideoByUrl(
+                            backgroundColor: Colors.transparent,
+                              apiKey: "AIzaSyAUjMGjTQeid3YWGh7xTIyGrfTlOjV94MI",
+                              videoUrl:link,
+                              autoPlay: false, //default falase
+                              fullScreen: false //default false
+                            ),
+                          )     
+                                     ],)
 
                   ]
                 )

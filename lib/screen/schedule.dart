@@ -164,9 +164,10 @@ getSearching(){
                               margin: EdgeInsets.all(20),
                               padding: EdgeInsets.only(top:10),
                               decoration: BoxDecoration(
+                                image: DecorationImage(image: AssetImage('assets/background02.jpg'),fit: BoxFit.cover),
                                 color: Colors.white,
                                 borderRadius: BorderRadius.all(
-                                  Radius.circular(10)
+                                  Radius.circular(25)
                                 )
                               ),
                               child:  SingleChildScrollView(
@@ -267,7 +268,7 @@ getSearching(){
                                                           padding: EdgeInsets.only(right: 5,),
                                                           child: Icon(Icons.radio_button_checked,size: 10,color: Colors.black,),
                                                         ),
-                                                        Text(jadwal[index]['ship'][jlhkpl]['nama'].toUpperCase(), style: TextStyle(fontSize: 12, fontWeight: FontWeight.w500,letterSpacing: 0.5, color: Colors.black87,fontFamily: 'Montserrat'),)
+                                                        Text(jadwal[index]['ship'][jlhkpl]['nama'].toUpperCase(), style: TextStyle(fontSize: 14, fontWeight: FontWeight.w700,letterSpacing: 0.5, color: Colors.black87,fontFamily: 'Montserrat'),)
                                                       ],
                                                     ),
                                                   ),
@@ -286,13 +287,13 @@ getSearching(){
                                                           mainAxisAlignment: MainAxisAlignment.start,
                                                           children: <Widget>[
                                                               Container(
-                                                                padding: EdgeInsets.only(top:5),
-                                                                width: MediaQuery.of(context).size.width/5,
-                                                                child: Text('CLOSE DATE ',style: TextStyle(color: Colors.grey, fontSize: 10,fontFamily: 'Montserrat',fontStyle: FontStyle.italic,fontWeight: FontWeight.w500),),
+                                                                padding: EdgeInsets.only(top:0),
+                                                                width: MediaQuery.of(context).size.width/4.5,
+                                                                child: Text('CLOSE DATE ',style: TextStyle(color: Colors.black, fontSize: 11,fontFamily: 'Montserrat',fontStyle: FontStyle.italic,fontWeight: FontWeight.w700),),
                                                               ),
                                                               Container(
-                                                                width: MediaQuery.of(context).size.width/5,
-                                                                child: Text(DateFormat('d MMM yyyy').format(DateTime.fromMillisecondsSinceEpoch(jadwal[index]['ship'][jlhkpl]['Closing'] * 1000)).toString(),style: TextStyle(color: Colors.grey, fontSize: 12,fontFamily: 'Montserrat',fontWeight: FontWeight.w500),),
+                                                                width: MediaQuery.of(context).size.width/4.5,
+                                                                child: Text(DateFormat('d MMM yyyy').format(DateTime.fromMillisecondsSinceEpoch(jadwal[index]['ship'][jlhkpl]['Closing'] * 1000)).toString(),style: TextStyle(color: Colors.black, fontSize: 11,fontFamily: 'Montserrat',fontWeight: FontWeight.w700),),
                                                               )
                                                           ],
                                                         )),
@@ -302,12 +303,12 @@ getSearching(){
                                                           mainAxisAlignment: MainAxisAlignment.start,
                                                           children: <Widget>[
                                                               Container(
-                                                                width: MediaQuery.of(context).size.width/5,
-                                                                child: Text('ETD ',style: TextStyle(color: Colors.grey, fontSize: 10,fontFamily: 'Montserrat',fontWeight: FontWeight.w500),),
+                                                                width: MediaQuery.of(context).size.width/4.5,
+                                                                child: Text('ETD ',style: TextStyle(color: Colors.black, fontSize: 11,fontFamily: 'Montserrat',fontWeight: FontWeight.w700),),
                                                               ),
                                                               Container(
-                                                                width: MediaQuery.of(context).size.width/5,
-                                                                child: Text(DateFormat('d MMM yyyy').format(DateTime.fromMillisecondsSinceEpoch(jadwal[index]['ship'][jlhkpl]['ETD'] * 1000)).toString(),style: TextStyle(color: Colors.grey, fontSize: 12,fontFamily: 'Montserrat',fontWeight: FontWeight.w500),),
+                                                                width: MediaQuery.of(context).size.width/4.5,
+                                                                child: Text(DateFormat('d MMM yyyy').format(DateTime.fromMillisecondsSinceEpoch(jadwal[index]['ship'][jlhkpl]['ETD'] * 1000)).toString(),style: TextStyle(color: Colors.black, fontSize: 11,fontFamily: 'Montserrat',fontWeight: FontWeight.w700),),
                                                               )
                                                           ],
                                                         )),
@@ -317,12 +318,12 @@ getSearching(){
                                                           mainAxisAlignment: MainAxisAlignment.start,
                                                           children: <Widget>[
                                                               Container(
-                                                                width: MediaQuery.of(context).size.width/5,
-                                                                child: Text('ETA ',style: TextStyle(color: Colors.grey, fontSize: 10,fontFamily: 'Montserrat',fontWeight: FontWeight.w500),),
+                                                                width: MediaQuery.of(context).size.width/4.5,
+                                                                child: Text('ETA ',style: TextStyle(color: Colors.black, fontSize: 11,fontFamily: 'Montserrat',fontWeight: FontWeight.w700),),
                                                               ),
                                                               Container(
-                                                                width: MediaQuery.of(context).size.width/5,
-                                                                child: Text(DateFormat('d MMM yyyy').format(DateTime.fromMillisecondsSinceEpoch(jadwal[index]['ship'][jlhkpl]['ETA'] * 1000)).toString(),style: TextStyle(color: Colors.grey, fontSize: 12,fontFamily: 'Montserrat',fontWeight: FontWeight.w500),),
+                                                                width: MediaQuery.of(context).size.width/4.5,
+                                                                child: Text(DateFormat('d MMM yyyy').format(DateTime.fromMillisecondsSinceEpoch(jadwal[index]['ship'][jlhkpl]['ETA'] * 1000)).toString(),style: TextStyle(color: Colors.black, fontSize: 11,fontFamily: 'Montserrat',fontWeight: FontWeight.w700),),
                                                               )
                                                           ],
                                                         )),
