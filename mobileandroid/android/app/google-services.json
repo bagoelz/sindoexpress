@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "435138133091",
+    "firebase_url": "https://sindoexpress.firebaseio.com",
+    "project_id": "sindoexpress",
+    "storage_bucket": "sindoexpress.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435138133091:android:32c49bebd099b8f8b68c56",
+        "android_client_info": {
+          "package_name": "com.itmudah.sindoexpress"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435138133091-roht9t61fgm1m6k7fvvretjsfpi2iqrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQ2rjodM-pzchI9tVjvkN-m0vf-EpdjGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435138133091-roht9t61fgm1m6k7fvvretjsfpi2iqrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

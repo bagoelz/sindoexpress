@@ -1,0 +1,16 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "workbench.colorCustomizations": {
+    },
+    "editor.tokenColorCustomizations": {
+        "[Gatito Theme]": {
+            "variables": "#726b0b",
+            "functions": "#74a8f7d7",
+            "strings":  "#298df1d8",
+            "types": "#e9f76bce",
+            "keywords": "#bed34ae3",
+            "comments": "#5e5c5c",
+            "semanticHighlighting": true
+        }
+    }
+}
